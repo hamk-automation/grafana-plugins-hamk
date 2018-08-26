@@ -1,0 +1,3 @@
+[submodule "grafana-button-panel"]
+	path = grafana-button-panel
+	url = https://github.com/NatelEnergy/grafana-button-panel.git
