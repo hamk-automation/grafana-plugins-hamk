@@ -1,0 +1,29 @@
+{
+  "type": "panel",
+  "name": "Button Panel",
+  "id": "natel-button-panel",
+
+  "info": {
+    "description": "Simple button in grafana",
+    "author": {
+      "name": "Natel Energy"
+    },
+    "keywords": [ "influxdb", "admin" ],
+    "logos": {
+      "small": "img/buttons.svg",
+      "large": "img/buttons.svg"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/NatelEnergy/grafana-button-panel"},
+      {"name": "MIT License",  "url": "https://github.com/NatelEnergy/grafana-button-panel/blob/master/LICENSE"},
+      {"name": "Natel Energy", "url": "http://www.natelenergy.com/"}
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}

@@ -1,0 +1,34 @@
+<div class="editor-row">
+
+  <div class="gf-form">
+    <span class="gf-form-label width-7">InfluxDB</span>
+    <div class="gf-form-select-wrapper max-width-23">
+      <select class="gf-form-input" 
+        ng-options="db for db in ctrl.dbs"
+        ng-model="ctrl.panel.datasource" 
+        ng-change="ctrl.configChanged()">
+      </select>
+    </div>
+  </div>
+
+  <div class="gf-form">
+    <span class="gf-form-label width-7">Measurment</span>
+    <input class="gf-form-input width-23" ng-model="ctrl.panel.measurment"/>
+  </div>
+
+  <div class="gf-form">
+    <span class="gf-form-label width-7">Slack URL</span>
+    <input class="gf-form-input width-23" ng-model="ctrl.panel.slackurl"/>
+  </div>
+
+
+  <div class="gf-form">
+    <span class="gf-form-label width-7">Username</span>
+    <input class="gf-form-input width-23" ng-model="ctrl.panel.username"/>
+  </div>
+
+  <div class="gf-form">
+    <span class="gf-form-label width-7">Password</span>
+    <input type="password" class="gf-form-input width-23" ng-model="ctrl.panel.password"/>
+  </div>
+</div>
