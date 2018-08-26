@@ -1,0 +1,29 @@
+{
+    "type": "panel",
+    "name": "Organisations",
+    "id": "digiapulssi-organisations-panel",
+
+    "info": {
+        "description": "Organisations Panel for Grafana",
+        "author": {
+            "name": "Digia Finland Ltd"
+        },
+        "keywords": ["organisation", "list", "panel"],
+        "version": "1.1.0",
+        "updated": "2018-03-26",
+        "logos": {
+            "small": "src/img/organisations-icon.svg",
+            "large": "src/img/organisations-icon.svg"
+        },
+        "links": [
+            {"name": "Project site", "url": "https://github.com/digiapulssi/grafana-organisations-panel"}
+        ],
+        "screenshots": [
+            {"name": "Showcase", "path": "src/img/organisations-screenshot.png"}
+        ]
+    },
+    "dependencies": {
+        "grafanaVersion": "5.x.x",
+        "plugins": [ ]
+    }
+}

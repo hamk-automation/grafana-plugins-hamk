@@ -1,0 +1,33 @@
+{
+  "type": "panel",
+  "name": "Parity Report",
+  "id": "zuburqan-parity-report-panel",
+
+  "info": {
+    "version": "1.0.0",
+    "description": "Parity report plugin to compare metrics",
+    "author": {
+      "name": "Zuburqan Khan",
+      "url": "https://github.com/zuburqan"
+    },
+    "keywords": ["parity", "report", "panel"],
+    "links": [
+      {"name": "MIT Licence", "url": "https://github.com/zuburqan/grafana-parity-report/blob/master/LICENSE"},
+      {"name": "Project Site", "url": "https://github.com/zuburqan/grafana-parity-report"}
+    ],
+    "screenshots": [
+      {"name": "Parity Report", "path": "img/parity_report.png"},
+      {"name": "Parity Report Metrics", "path": "img/parity_report_metrics.png"},
+      {"name": "Parity Report Options", "path": "img/parity_report_options.png"}
+    ],
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    }
+  },
+
+  "dependencies": {
+    "grafanaVersion": "4.5.0",
+    "plugins": [ ]
+  }
+}
